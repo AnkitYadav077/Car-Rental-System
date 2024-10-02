@@ -254,9 +254,9 @@ class CarRentalSystem{
 public class Main {
     public static void main(String[] args) {
         CarRentalSystem rentalSystem=new CarRentalSystem();
-        car car1=new car("MP001","HONDA"," ACCORD ",70);
+        car car1=new car("MP001","TATA"," PUNCH ",70);
         car car2=new car("MP002","TOYOTA"," CAMRY ",60);
-        car car3=new car("MP003","MAHINDRA"," XUV400 ",70);
+        car car3=new car("MP003","MAHINDRA"," XUV400 ",80);
         rentalSystem.addcar(car1);
         rentalSystem.addcar(car2);
         rentalSystem.addcar(car3);
